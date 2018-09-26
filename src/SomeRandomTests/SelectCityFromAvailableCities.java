@@ -40,6 +40,7 @@ public class SelectCityFromAvailableCities
 			
 			//act.click(lowerBerth).perform();
 			act.moveToElement(lowerBerth, x, y).click().perform();
+			//act.click(lowerBerth).build().perform();
 			
 			Thread.sleep(1000);
 		}
