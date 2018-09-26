@@ -31,7 +31,7 @@ public class SelectCityFromAvailableCities
 		Actions act= new Actions(run.driver);
 			
 		//Adding this for loop to select multiple seats from  available
-		//If you want to add just one random seat then just remove for loop and replace line 43 to: act.click(lowerBerth).build().perform();
+		//If you want to add just one random seat then just remove for loop and replace line 44 to: act.click(lowerBerth).build().perform();
 		for (int i=1; i<7; i++)
 		{
 			int x= i*45;
