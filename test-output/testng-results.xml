@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42234" started-at="2018-09-19T01:28:10Z" finished-at="2018-09-19T01:28:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42234" started-at="2018-09-19T01:28:10Z" finished-at="2018-09-19T01:28:52Z">
+      <class name="SomeRandomTests.SelectCityFromAvailableCities">
+        <test-method status="PASS" signature="launch()[pri:0, instance:SomeRandomTests.SelectCityFromAvailableCities@12e61fe6]" name="launch" is-config="true" duration-ms="5737" started-at="2018-09-18T20:28:10Z" finished-at="2018-09-18T20:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="checkbusestoMumbai()[pri:0, instance:SomeRandomTests.SelectCityFromAvailableCities@12e61fe6]" name="checkbusestoMumbai" duration-ms="36100" started-at="2018-09-18T20:28:16Z" finished-at="2018-09-18T20:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbusestoMumbai -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:SomeRandomTests.SelectCityFromAvailableCities@12e61fe6]" name="exit" is-config="true" duration-ms="344" started-at="2018-09-18T20:28:52Z" finished-at="2018-09-18T20:28:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- SomeRandomTests.SelectCityFromAvailableCities -->
+=======
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35200" started-at="2018-08-16T02:05:08Z" finished-at="2018-08-16T02:05:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35200" started-at="2018-08-16T02:05:08Z" finished-at="2018-08-16T02:05:43Z">
+      <class name="testCases.TestCase_ScrollUntilElementVisible">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testCases.TestCase_ScrollUntilElementVisible@5e316c74]" name="launch" is-config="true" duration-ms="24339" started-at="2018-08-15T21:05:08Z" finished-at="2018-08-15T21:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="step1_enterWeb()[pri:0, instance:testCases.TestCase_ScrollUntilElementVisible@5e316c74]" name="step1_enterWeb" is-config="true" duration-ms="2004" started-at="2018-08-15T21:05:33Z" finished-at="2018-08-15T21:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1_enterWeb -->
+        <test-method status="PASS" signature="scrollUntilElement()[pri:0, instance:testCases.TestCase_ScrollUntilElementVisible@5e316c74]" name="scrollUntilElement" duration-ms="5979" started-at="2018-08-15T21:05:35Z" finished-at="2018-08-15T21:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUntilElement -->
+        <test-method status="PASS" signature="step2_scrollUntilElementIsVisible()[pri:0, instance:testCases.TestCase_ScrollUntilElementVisible@5e316c74]" name="step2_scrollUntilElementIsVisible" duration-ms="2638" started-at="2018-08-15T21:05:41Z" finished-at="2018-08-15T21:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2_scrollUntilElementIsVisible -->
+        <test-method status="PASS" signature="lastStep_ExitWeb()[pri:0, instance:testCases.TestCase_ScrollUntilElementVisible@5e316c74]" name="lastStep_ExitWeb" is-config="true" duration-ms="207" started-at="2018-08-15T21:05:43Z" finished-at="2018-08-15T21:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastStep_ExitWeb -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:testCases.TestCase_ScrollUntilElementVisible@5e316c74]" name="exit" is-config="true" duration-ms="1" started-at="2018-08-15T21:05:43Z" finished-at="2018-08-15T21:05:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testCases.TestCase_ScrollUntilElementVisible -->
+>>>>>>> master
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
